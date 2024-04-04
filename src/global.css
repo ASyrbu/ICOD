@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+@media screen and (max-width: 1560px) {
+  .smaller-image {
+    width: 40%; /* Уменьшаем ширину изображения до 50% при ширине окна меньше 1024px */
+    height: auto; /* Автоматически рассчитываем высоту, чтобы сохранить пропорции */
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .image-none {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .navbar-none {
+    display: none;
+  }
+}
