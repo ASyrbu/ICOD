@@ -1,4 +1,3 @@
-import FrameComponent6 from "./FrameComponent6";
 
 const FrameComponent5 = () => {
   return (

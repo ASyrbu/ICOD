@@ -17,6 +17,39 @@ body {
     width: 40%; /* Уменьшаем ширину изображения до 50% при ширине окна меньше 1024px */
     height: auto; /* Автоматически рассчитываем высоту, чтобы сохранить пропорции */
   }
+  .services {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .services {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .services {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .services {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .services {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
 
 @media screen and (max-width: 880px) {

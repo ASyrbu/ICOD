@@ -2,7 +2,7 @@
 const TransformerNetwork = () => {
   return (
     <div className="self-stretch flex flex-row flex-wrap items-start justify-between max-w-full gap-[20px] text-left text-xl text-lightgray font-outfit">
-      <div className="w-[400px] flex px-9 flex-col items-start justify-start gap-[39px] max-w-full mq450:gap-[19px_39px]">
+      <div className="w-[400px] flex px-9 pb-10 flex-col items-start justify-start gap-[39px] max-w-full mq450:gap-[19px_39px]">
         <div className="self-stretch flex flex-col items-start justify-start gap-[0.5px]">
           <div className="self-stretch h-px relative bg-darkslategray-200" />
           <div className="self-stretch h-[81px] text-11xl flex flex-col items-start justify-start py-[21px] px-0 box-border relative gap-[20.5px] z-[1]">
@@ -52,7 +52,7 @@ const TransformerNetwork = () => {
       </div>
       <div className="w-[400px] px-9 flex flex-col items-start justify-start gap-[19px] max-w-full">
         <div className="self-stretch flex flex-col items-end justify-start gap-[0.5px] text-11xl text-white font-cormorant-garamond">
-          <div className="self-stretch h-px relative bg-darkslategray-200" />
+          <div className="self-stretch h-px relative  bg-darkslategray-200" />
           <div className="self-stretch h-[81px] flex flex-col items-start justify-start py-[21px] px-0 box-border relative gap-[20.5px] z-[1]">
             <h3 className="m-0 relative text-inherit tracking-[0.4px] leading-[39px] font-normal font-inherit z-[1] mq450:text-lg mq450:leading-[23px] mq800:text-5xl mq800:leading-[31px]">
               Связаться с нами

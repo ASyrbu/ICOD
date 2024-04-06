@@ -17,9 +17,8 @@ const FrameComponent3 = () => {
             <div className="self-stretch relative text-xl tracking-[0.4px] leading-[32px] font-outfit text-lightgray mq450:text-base mq450:leading-[26px]">
               "Найдите Правовую Уверенность: Обращайтесь к нам Прямо Сейчас!"
             </div>
-            <button className="cursor-pointer pt-6 px-[70px] pb-[25px] bg-burlywood w-[257px] box-border flex flex-row items-start justify-start whitespace-nowrap border-[1px] border-solid border-burlywood hover:bg-peru hover:box-border hover:border-[1px] hover:border-solid hover:border-peru mq450:pl-5 mq450:pr-5 mq450:box-border">
-              <div className="h-[85px] w-[257px] relative bg-burlywood box-border hidden border-[1px] border-solid border-burlywood" />
-              <div className="flex-1 relative text-3xl tracking-[0.4px] leading-[36px] font-outfit text-gray-300 text-center inline-block min-w-[115px] z-[1]">
+            <button className="cursor-pointer pt-6 px-auto pb-[25px] bg-burlywood w-[257px] box-border flex flex-row items-start justify-start whitespace-nowrap  hover:bg-peru hover:box-border hover:border-[1px] hover:border-solid hover:border-peru mq450:pl-5 mq450:pr-5 mq450:box-border">
+              <div className=" mx-auto relative text-3xl tracking-[0.4px] leading-[36px] font-outfit text-gray-300 text-center inline-block  z-[1]">
                 Связаться с нами
               </div>
             </button>
