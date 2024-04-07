@@ -7,6 +7,8 @@ import FrameComponent3 from "../components/Contacts";
 import FrameComponent2 from "../components/Consulting";
 import TransformerNetwork from "../components/Footer";
 
+
+
 const Desktop = () => {
   return (
     <div className="w-full relative bg-gray-400 overflow-hidden  pb-[110px] ">
@@ -25,6 +27,7 @@ const Desktop = () => {
           <TransformerNetwork />
         </div>
       </section>
+
     </div>
   );
 };
@@ -35,3 +38,4 @@ export default Desktop;
   alt=""
   src="/frame-1.svg"
 />
+
