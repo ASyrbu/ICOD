@@ -8,6 +8,27 @@ export const Consulting = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    const phoneNumber = form.current.phone.value;
+    const email = form.current.email.value;
+
+    // Регулярное выражение для номера телефона: должен начинаться на +373 и состоять из 11 цифр
+    const phoneRegex = /^\+373\d{8}$/;
+
+    // Регулярное выражение для электронного адреса
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Проверка введенного номера телефона
+    if (!phoneRegex.test(phoneNumber)) {
+      alert('Пожалуйста, введите корректный номер телефона в формате +373XXXXXXXX.');
+      return;
+    }
+
+    // Проверка введенного электронного адреса
+    if (!emailRegex.test(email)) {
+      alert('Пожалуйста, введите корректный адрес электронной почты.');
+      return;
+    }
+
     emailjs
       .sendForm('service_ojnwz6l', 'template_ssyhm1e', form.current, {
         publicKey: 'wvEmm-gmGKOJKsg9H',
@@ -15,6 +36,7 @@ export const Consulting = () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          alert('Вашая заявка отправлена!');
         },
         (error) => {
           console.log('FAILED...', error.text);
