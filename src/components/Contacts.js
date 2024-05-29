@@ -1,59 +1,46 @@
+import "./styles.css";
+
 const FrameComponent3 = () => {
   return (
-    <section id="make" className="self-stretch flex flex-row items-start justify-start pt-[80px] px-10 pb-[150px] box-border max-w-full text-left text-26xl text-white font-cormorant-garamond mq800:pb-[97px] mq800:box-border">
-      <div className="flex-1 flex flex-row items-start justify-start gap-[102px] max-w-full mq450:gap-[102px_25px] mq800:gap-[102px_51px] mq1350:flex-wrap">
-        <div className="flex-1 flex flex-col items-start justify-start pt-px px-0 pb-0 box-border min-w-[409px] max-w-full mq800:min-w-full mq1350:flex-1">
-          <div className="self-stretch flex flex-col items-start justify-start gap-[37px] max-w-full mq800:gap-[18px_37px]">
-            <div className="w-[577px] flex flex-col items-start justify-start pt-0 px-0 pb-1.5 box-border gap-[9px] max-w-full">
-              <h1 className="m-0 self-stretch relative text-inherit tracking-[0.4px] leading-[58.5px] capitalize font-normal font-inherit mq450:text-8xl mq450:leading-[35px] mq800:text-17xl mq800:leading-[47px]">
-                Сделайте правильный ход
-              </h1>
-              <img
-                className="w-[95px] h-11 relative overflow-hidden shrink-0"
-                alt=""
-                src="/image-50.svg"
-              />
-            </div>
-            <div className="self-stretch relative text-xl tracking-[0.4px] leading-[32px] font-outfit text-lightgray mq450:text-base mq450:leading-[26px]">
+    <section id="make" className="luxury-section py-20 px-6 text-left text-white font-cormorant-garamond">
+      <div className="luxury-container flex flex-col lg:flex-row items-start justify-between gap-10">
+        <div className="luxury-content flex-1 flex flex-col items-start justify-start">
+          <div className="luxury-heading max-w-full mb-10">
+            <h1 className="text-5xl leading-tight capitalize mb-4">
+              Сделайте правильный ход
+            </h1>
+            <p className=" text-2xl leading-relaxed text-lightgray">
               "Найдите Правовую Уверенность: Обращайтесь к нам Прямо Сейчас!"
-            </div>
-            <button className="cursor-pointer pt-6 px-auto pb-[25px] bg-burlywood w-[257px] box-border flex flex-row items-start justify-start whitespace-nowrap  hover:bg-peru hover:box-border hover:border-[1px] hover:border-solid hover:border-peru mq450:pl-5 mq450:pr-5 mq450:box-border">
-              <div className=" mx-auto relative text-3xl tracking-[0.4px] leading-[36px] font-outfit text-gray-300 text-center inline-block  z-[1]">
-                Связаться с нами
-              </div>
-            </button>
+            </p>
           </div>
+          <button className="luxury-button hover:cursor-pointer border-solid bg-burlywood border-burlywood hover:bg-peru hover:box-border hover:border-[1px] hover:border-solid hover:border-peru">
+            <a href="#consult" className="w-full h-full no-underline visited:text-gray-300">
+              Связаться с нами
+            </a>
+
+          </button>
         </div>
-        <div className="flex-[0.873] bg-white flex flex-row items-start justify-start p-10 box-border min-w-[409px] max-w-full text-23xl text-gray-300 mq800:pt-[26px] mq800:pb-[26px] mq800:box-border mq800:min-w-full mq1350:flex-1">
-          <div className="h-[490px] w-[630px] relative bg-white hidden max-w-full" />
-          <div className="flex-1 box-border flex flex-col items-start justify-start pt-[65px] pb-[75px] pr-[54px] pl-[55px] gap-[37px] max-w-full z-[1] border-[15px] border-solid border-lightgray mq450:pt-[42px] mq450:pb-[49px] mq450:box-border mq800:gap-[18px_37px] mq800:pl-[27px] mq800:pr-[27px] mq800:box-border">
-            <div className="w-[550px] h-[410px] relative box-border hidden max-w-full border-[15px] border-solid border-lightgray" />
-            <div className="w-[411px] flex flex-col items-start justify-start gap-[12px] max-w-full">
-              <h1 className="m-0 relative text-inherit tracking-[0.4px] leading-[55px] font-normal font-inherit z-[1] mq450:text-6xl mq450:leading-[33px] mq800:text-15xl mq800:leading-[44px]">
-                Получить бесплатную консультацию
-              </h1>
-              <div className="self-stretch relative text-xl tracking-[0.4px] leading-[32px] font-outfit text-gray-200 z-[1] mq450:text-base mq450:leading-[26px]">
-                Обращайтесь сейчас по номеру и получите 100% бесплатную консультацию
-              </div>
-            </div>
-            <div className="flex flex-row items-start justify-start gap-[15px] text-lg font-outfit mq800:flex-wrap">
-              <div className="h-[70px] bg-burlywood flex flex-row items-start justify-start pt-[22px] pb-[21px] pr-[21px] pl-[22px] box-border z-[1]">
-                <div className="h-[70px] w-[70px] relative bg-burlywood hidden" />
-                <img
-                  className="h-[27px] w-[27px] relative overflow-hidden shrink-0 z-[1]"
-                  alt=""
-                  src="/image-51.svg"
-                />
-              </div>
-              <div className="flex flex-col items-start justify-start pt-[3px] px-0 pb-0">
-                <div className="flex flex-col items-start justify-start">
-                  <div className="relative tracking-[0.4px] leading-[22px] inline-block min-w-[92px] z-[1]">
-                    Наш номер:
-                  </div>
-                  <div className="relative text-11xl tracking-[0.4px] leading-[42px] z-[1] mq450:text-lg mq450:leading-[25px] mq800:text-5xl mq800:leading-[34px]">
+        <div className="luxury-form flex-1 bg-darkblue text-gray-900 p-8 rounded-lg shadow-lg border-2 border-gold">
+          <div className="flex flex-col items-start justify-start gap-6">
+            <h1 className="text-3xl leading-tight mb-4 text-white">
+              Получить бесплатную консультацию
+            </h1>
+            <p className="text-xl leading-relaxed text-lightgray mb-6">
+              Обращайтесь сейчас по номеру и получите 100% бесплатную консультацию
+            </p>
+            <div className="flex flex-col lg:flex-row items-start justify-start ">
+              <div className="flex flex-row gap-x-5">
+                <img className="luxury-contact-icon mt-4 bg-gold p-3 rounded-full w-6 h-6" alt="" src="/image-51.svg" />
+                <div className="flex flex-col">
+                  <p className="text-lg leading-6 text-white">Наш номер:</p>
+                  <p className="text-lg mt-0x leading-tight  text-gold">
                     +373 67 112 112
-                  </div>
+                  </p>
                 </div>
+
+              </div>
+              <div>
+
               </div>
             </div>
           </div>

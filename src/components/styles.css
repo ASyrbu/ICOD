@@ -1,0 +1,491 @@
+/* styles.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.luxury-section {
+  background: #0a0b1a;
+  color: #ffffff;
+  transition: background 0.3s ease;
+}
+
+.luxury-section:hover {
+  background: #141629;
+}
+
+.luxury-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (min-width: 1024px) {
+  .luxury-container {
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+
+.luxury-heading h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f3f4f6;
+  position: relative;
+}
+
+.luxury-heading h1::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 50%;
+  height: 4px;
+  background: #d4af37;
+}
+
+.luxury-heading p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.25rem;
+  color: #c0c0c0;
+}
+
+.luxury-button {
+  padding: 0.75rem 2rem;
+  background: #d4af37;
+  color: #333333;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Outfit", sans-serif;
+  transition: background 0.3s ease;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.luxury-button:hover {
+  background: #c3a037;
+}
+
+.luxury-form {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #1c1c2e;
+  border: 2px solid #d4af37;
+  position: relative;
+  overflow: hidden;
+}
+
+.luxury-form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #d4af37;
+}
+
+.luxury-form h1 {
+  font-size: 2rem;
+  color: #f3f4f6;
+}
+
+.luxury-form p {
+  font-family: "Outfit", sans-serif;
+  color: #c0c0c0;
+}
+
+.luxury-contact-icon {
+  background: #d4af37;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.luxury-contact-icon img {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+@media (max-width: 767px) {
+  .luxury-heading h1 {
+    font-size: 1.75rem;
+  }
+
+  .luxury-heading p {
+    font-size: 1rem;
+  }
+
+  .luxury-button {
+    font-size: 1.25rem;
+  }
+
+  .luxury-form h1 {
+    font-size: 1.5rem;
+  }
+
+  .luxury-form p {
+    font-size: 1rem;
+  }
+
+  .luxury-contact-icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .luxury-heading h1 {
+    font-size: 2rem;
+  }
+
+  .luxury-heading p {
+    font-size: 1.25rem;
+  }
+
+  .luxury-button {
+    font-size: 1.5rem;
+  }
+
+  .luxury-form h1 {
+    font-size: 1.75rem;
+  }
+
+  .luxury-form p {
+    font-size: 1.25rem;
+  }
+
+  .luxury-contact-icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .luxury-heading h1 {
+    font-size: 2.5rem;
+  }
+
+  .luxury-heading p {
+    font-size: 1.5rem;
+  }
+
+  .luxury-button {
+    font-size: 1.75rem;
+  }
+
+  .luxury-form h1 {
+    font-size: 2rem;
+  }
+
+  .luxury-form p {
+    font-size: 1.5rem;
+  }
+
+  .luxury-contact-icon img {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .luxury-heading h1 {
+    font-size: 2.75rem;
+  }
+
+  .luxury-heading p {
+    font-size: 1.75rem;
+  }
+
+  .luxury-button {
+    font-size: 2rem;
+  }
+
+  .luxury-form h1 {
+    font-size: 2.25rem;
+  }
+
+  .luxury-form p {
+    font-size: 1.75rem;
+  }
+
+  .luxury-contact-icon img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .luxury-heading h1 {
+    font-size: 3rem;
+  }
+
+  .luxury-heading p {
+    font-size: 2rem;
+  }
+
+  .luxury-button {
+    font-size: 2.25rem;
+  }
+
+  .luxury-form h1 {
+    font-size: 2.5rem;
+  }
+
+  .luxury-form p {
+    font-size: 2rem;
+  }
+
+  .luxury-contact-icon img {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .luxury-heading h1 {
+    font-size: 3.25rem;
+  }
+
+  .luxury-heading p {
+    font-size: 2.25rem;
+  }
+
+  .luxury-button {
+    font-size: 2.5rem;
+  }
+
+  .luxury-form h1 {
+    font-size: 2.75rem;
+  }
+
+  .luxury-form p {
+    font-size: 2.25rem;
+  }
+
+  .luxury-contact-icon img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+.partners-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 130px;
+  background-color: white;
+  text-align: left;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.9375rem;
+  color: #a9a9a9;
+}
+
+.partners-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.partners-icon {
+  height: 70px;
+  width: 75px;
+  margin-left: 8px;
+}
+
+.partners-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.partners-header h1 {
+  margin: 0;
+  padding-left: 16px;
+  font-size: 3.875rem;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+
+.partners-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  flex-wrap: wrap;
+}
+
+.partner-image {
+  height: 200px;
+  width: 200px;
+  min-height: 80px;
+}
+
+/* Responsive Styles */
+@media (max-width: 800px) {
+  .partners-section {
+    padding-top: 52px;
+    padding-bottom: 84px;
+  }
+
+  .partners-header h1 {
+    font-size: 2.625rem;
+    line-height: 48px;
+  }
+
+  .partners-images {
+    gap: 20px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .partners-header h1 {
+    font-size: 1.75rem;
+    line-height: 36px;
+  }
+}
+
+.consult-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px 130px;
+  background-color: #1c1c2e;
+  gap: 10px;
+}
+
+.consult-title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.consult-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+  background-color: #fffab0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-label {
+  color: #333;
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.form-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+}
+
+textarea.form-input {
+  height: 100px;
+  resize: none;
+}
+
+.submit-button {
+  margin: 20px auto 0;
+  padding: 15px 30px;
+  background-color: #72542d;
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: "Cormorant Garamond", serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #eb9744;
+}
+
+@media (max-width: 800px) {
+  .consult-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .consult-form {
+    padding: 15px;
+  }
+
+  .form-label {
+    font-size: 1rem;
+  }
+
+  .form-input {
+    font-size: 0.875rem;
+  }
+
+  .submit-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .consult-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+
+  .form-label {
+    font-size: 0.875rem;
+  }
+
+  .form-input {
+    font-size: 0.75rem;
+  }
+
+  .submit-button {
+    font-size: 0.875rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .links {
+    flex-direction: column;
+    display: flex;
+  }
+}

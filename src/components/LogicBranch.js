@@ -1,6 +1,6 @@
 const LogicBranch = () => {
   return (
-    <section id="landing" className="self-stretch flex flex-row items-start pt-0 px-0 pb-[140.29999999999995px] mq1125:mb-8 box-border max-w-full text-left text-3xl text-burlywood font-outfit mq800:box-border mq1350:pb-[91px] mq1350:box-border">
+    <section id="landing" className="self-stretch  flex flex-row items-start  mq1125:mb-8 box-border max-w-full text-left text-3xl text-burlywood font-outfit mq800:box-border mq1350:pb-[91px] mq1350:box-border">
       <div className="flex-1 flex flex-col items-start px-10 pb-0 box-border relative gap-[40px] max-w-full mq800:gap-[20px_40px]">
         <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px]">
           <img
@@ -22,17 +22,17 @@ const LogicBranch = () => {
                     src="/logo.png"
                   />
                   <div className="relative tracking-[0.4px] w-[230px] leading-[36px] inline-block min-w-[61px] z-[1] mq450:text-lg mq450:leading-[28px]">
-                    <a className="no-underline text-white visited:text-white" href="#about">
+                    <a className="no-underline text-white  hover:text-burlywood visited:text-white" href="#about">
                       О Нас
                     </a>
                   </div>
                   <div className="relative tracking-[0.4px] w-[230px] leading-[36px] inline-block min-w-[95px] z-[1] mq450:text-lg mq450:leading-[28px]">
-                    <a className="no-underline text-white visited:text-white" href="#services">
+                    <a className="no-underline text-white  hover:text-burlywood visited:text-white" href="#services">
                       Услуги
                     </a>
                   </div>
                   <div className="relative tracking-[0.4px] w-[270px] leading-[36px] inline-block min-w-[64px] z-[1] mq450:text-lg mq450:leading-[28px]">
-                    <a className="no-underline text-white visited:text-white" href="#consult">
+                    <a className="no-underline text-white hover:text-burlywood visited:text-white" href="#consult">
                       Связаться с нами
                     </a>
                   </div>
@@ -76,16 +76,12 @@ const LogicBranch = () => {
           </div>
         </header>
 
-        <div className="self-stretch flex flex-row flex-wrap items-start justify-end gap-[19px] max-w-full text-46xl text-white font-cormorant-garamond">
+        <div className="self-stretch mb-10 flex flex-row flex-wrap items-start justify-end gap-[19px] max-w-full text-46xl text-white font-cormorant-garamond">
           <div className="flex-1 flex flex-col items-start justify-end pt-[110px] px-0 pb-0 box-border min-w-[435px] max-w-full mq800:pt-[71px] mq800:box-border mq800:min-w-full">
             <div className="self-stretch flex flex-col items-start justify-end gap-[28px] max-w-full">
               <div className="self-stretch flex flex-col items-start justify-end gap-[21px] max-w-full">
                 <div className="self-stretch flex flex-col items-start justify-end gap-[14px]">
-                  <img
-                    className="w-[95px] h-11 relative overflow-hidden shrink-0 z-[2]"
-                    alt=""
-                    src="/image-4.svg"
-                  />
+
                   <h1 className="m-0 self-stretch relative text-inherit tracking-[0.4px] leading-[78px] font-normal font-inherit z-[2] mq450:text-20xl mq450:leading-[47px] mq800:text-33xl mq800:leading-[62px]">
                     Мы-профессионалы своего дела
                   </h1>
@@ -94,19 +90,14 @@ const LogicBranch = () => {
                   Мы помогли бесчиссленному количеству людей в их юридических вопросах
                 </div>
               </div>
-              <button className="cursor-pointer pt-[25px] pb-6 bg-burlywood w-[269px] box-border flex flex-row items-start justify-start whitespace-nowrap z-[2] border-[1px] border-solid border-burlywood hover:bg-peru hover:box-border hover:border-[1px] hover:border-solid hover:border-peru mq450:pl-5 mq450:pr-5 mq450:box-border">
-                <div className="h-[85px] w-[269px] relative bg-burlywood box-border hidden border-[1px] border-solid border-burlywood" />
-                <div className="flex-1 relative text-3xl tracking-[0.4px] leading-[36px] font-outfit text-gray-300 text-center inline-block min-w-[127px] z-[1]">
+              <button className="flex-1 relative text-3xl tracking-[0.4px] leading-[36px] font-outfit text-gray-300 text-center inline-block min-w-[127px]  ursor-pointer pt-[25px] pb-6 bg-burlywood w-[269px] box-border  flex-row items-start justify-start whitespace-nowrap z-[2] border-[1px] border-solid border-burlywood hover:bg-peru hover:box-border hover:border-[1px] hover:border-solid hover:border-peru mq450:pl-5 mq450:pr-5 mq450:box-border">
+                <a href="#consult" className="w-full h-full no-underline visited:text-gray-300">
                   Связаться с нами
-                </div>
+                </a>
               </button>
             </div>
           </div>
-          <img
-            className="static image-none mq1125:mx-auto max-w-full overflow-hidden object-cover h-auto mt-auto min-w-[337px] z-[2] lg:max-w-[50%] md:h-auto md:max-h-[600px] smaller-image center-image"
-            alt=""
-            src="/landing.png"
-          />
+
         </div>
       </div>
     </section>
