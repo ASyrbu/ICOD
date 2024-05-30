@@ -5,7 +5,7 @@ const LogicBranch = () => {
         <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px]">
           <img
             className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-cover"
-            alt=""
+            alt="background"
             src="/image@2x.png"
           />
           <div className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] bg-gray-500 z-[1]" />
@@ -18,7 +18,7 @@ const LogicBranch = () => {
                 <div className="flex flex-row w-full items-start pt-3 px-0 pb-0">
                   <img
                     className="h-[120px] w-[120px] relativ pr-8 overflow-hidden shrink-0 max-w-full z-[2]"
-                    alt=""
+                    alt="logo"
                     src="/logo.png"
                   />
                   <div className="relative tracking-[0.4px] w-[230px] leading-[36px] inline-block min-w-[61px] z-[1] mq450:text-lg mq450:leading-[28px]">
@@ -41,7 +41,7 @@ const LogicBranch = () => {
                       <div className="h-[62px] w-[62px] relative rounded-81xl box-border hidden border-[2px] border-solid border-burlywood" />
                       <img
                         className="h-[17px] w-[17px] relative overflow-hidden shrink-0 z-[1]"
-                        alt=""
+                        alt="phone"
                         src="/image-2.svg"
                       />
                     </button>
@@ -57,7 +57,7 @@ const LogicBranch = () => {
                       <div className="h-[62px] w-[62px] relative rounded-81xl box-border hidden border-[2px] border-solid border-burlywood" />
                       <img
                         className="h-4 w-[18px] relative overflow-hidden shrink-0 z-[1]"
-                        alt=""
+                        alt="mail"
                         src="/image-3.svg"
                       />
                     </button>

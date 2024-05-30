@@ -98,14 +98,14 @@ const TransformerNetwork = () => {
               <a href="https://www.facebook.com/ICOD.GLOBAL/" target="_blank" rel="noopener noreferrer">
                 <img
                   className="w-[25px] h-[25px] relative overflow-hidden shrink-0 z-[1]"
-                  alt=""
+                  alt="facebook"
                   src="/social-icons.svg"
                 />
               </a>
               <a href="https://www.instagram.com/icod.global?igsh=MTFmcHAzejV1ZHUyeg==" target="_blank" rel="noopener noreferrer">
                 <img
                   className="w-[25px] h-[25px] relative overflow-hidden shrink-0 z-[1]"
-                  alt=""
+                  alt="instagram"
                   src="/social-icons-1.svg"
                 />
               </a>

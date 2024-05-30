@@ -14,19 +14,19 @@ const LinkedList = () => {
             <img
               className="partner-image"
               loading="lazy"
-              alt=""
+              alt="andys"
               src="/ascara.jpg"
             />
             <img
               className="partner-image"
               loading="lazy"
-              alt=""
+              alt="kodeson"
               src="/kodeson.jfif"
             />
             <img
               className="partner-image"
               loading="lazy"
-              alt=""
+              alt="ascara"
               src="/ascara.png"
             />
           </div>
