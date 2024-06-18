@@ -114,6 +114,11 @@ const TransformerNetwork = () => {
 
           </div>
         </div>
+        <a href="https://peach-it.solutions/" target="_blank">
+          <img
+            className="w-full pt-[100px] h-[20px] relative"
+            src="/Made by Peach IT orange.png" alt="Наш  Инстаграм" />
+        </a>
       </div>
     </div>
   );
